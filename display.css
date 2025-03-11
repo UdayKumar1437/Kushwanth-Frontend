@@ -1,0 +1,24 @@
+/* Block-->
+new line
+full width (100% screen)
+apply height and width
+
+Inline-->
+not start in new line
+doesn't take full width
+can't specify height and width
+
+Inline-Block -->
+not start in new line
+doesn't take full width
+can specify height and width */
+
+p{
+    border: 1px solid black;
+    display: inline-block;
+    height: 100px;
+}
+i{
+    border: 1px solid black;
+    display: block;
+}
