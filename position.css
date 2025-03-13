@@ -1,0 +1,60 @@
+/* 
+1.static (by default)
+2.relative
+3.absolute
+4.fixed
+
+
+1.Top
+2.Bottom
+3.Left
+4.Right
+
+
+*/
+
+#div{
+    border: 1px solid black;
+    width: 600px;
+    height: 200px;
+}
+#one{
+    border: 1px solid black;
+    height: 150px;
+    width: 100px;
+    margin: 20px;
+    display: inline-block;
+    background-color: blue;
+    position: absolute;
+    z-index: 100;
+}
+#two{
+    border: 1px solid black;
+    height: 150px;
+    width: 100px;
+    margin: 20px;
+    display: inline-block;
+    background-color: green;
+    /* position: relative;
+    top:20px;
+    left: 100px;
+    bottom: 20px; */
+    /* position: absolute; */
+    /* top: 30px; */
+    /* position: fixed;
+    top: 20px; */
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+}
+#three{
+    border: 1px solid black;
+    height: 150px;
+    width: 100px;
+    margin: 20px;
+    display: inline-block; 
+    background-color: yellow;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+}
